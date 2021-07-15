@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: $default-font;
+  font-family: $font-kumbh-sans;
+  font-weight: $font-weight-400;
+  background-color: $dark-cyan;
+  height: 100vh;
+  background-image: url("../images/bg-pattern-top.svg"),
+    url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 51vw bottom 40vh, left 49vw top 52vh;
+
+  @media (min-width: 48rem) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
