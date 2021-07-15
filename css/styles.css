@@ -109,12 +109,14 @@ body {
 }
 
 .card-bottom-container .name {
+  font-size: 1.125rem;
   font-weight: 700;
   color: #2d3248;
   margin-right: 0.6875rem;
 }
 
 .card-bottom-container .age {
+  font-size: 1.125rem;
   color: #969696;
 }
 

@@ -57,12 +57,14 @@
       margin-bottom: 1rem;
 
       .name {
+        font-size: 1.125rem;
         font-weight: $font-weight-700;
         color: $very-dark-desaturated-blue;
         margin-right: 0.6875rem;
       }
 
       .age {
+        font-size: 1.125rem;
         color: $dark-gray;
       }
     }
