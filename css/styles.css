@@ -95,6 +95,7 @@ body {
   height: 14.625rem;
   background-color: whitesmoke;
   text-align: center;
+  border-radius: 0 0 0.9375rem 0.9375rem;
 }
 
 .card-bottom-container {
